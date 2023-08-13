@@ -1,27 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | NFT preview card component</title>
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <article class="image-container">
+        <img src="./images/image-equilibrium.jpg" alt="logo" />
+      </article>
+      <article class="text-info">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div>
+          <span
+            ><img src="./images/icon-ethereum.svg" alt="icon" />0.041 ETH</span
+          >
+          <span  id="days"
+            ><img src="./images/icon-clock.svg" alt="icon"/>3 days
+            left</span
+          >
+        </div>
 
-Equilibrium #3429
-
-Our Equilibrium collection promotes balance and calm.
-
-0.041 ETH
-3 days left
-
-Creation of Jules Wyvern
-
-
-</body>
+        <section class="person-info">
+          <img src="./images/image-avatar.png" alt="avatar" />
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </section>
+      </article>
+    </section>
+  </body>
 </html>
